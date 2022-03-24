@@ -5,15 +5,20 @@
 /*Arquivo Navbar.js*/
 nav {
   background-color: #4D4D4D;
-  height: 100px;
+  height: 120px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  /*justify-content: space-evenly;*/
   align-items: center;
 }
 
 .navbar-img {
-  width: 160px;
+  width:50px;
+}
+
+.pokedex-logo {
+  width:180px;
 }
 
 /*Arquivo Searchbar.js*/
@@ -48,7 +53,6 @@ nav {
 }
 
 .pokemon-search-card {
-  background-color: white;
   display: flex;
   box-shadow: 4px 4px 4px (0,0,0,0.25);
   border-radius: 3px;
@@ -76,16 +80,15 @@ nav {
 /*Arquivo Pokemon.js*/
 /*Dica: Alt + Shift + baixo = copia e cola o trecho selecionado*/
 .pokemon-card {
-  background-color: #ffffff;
   display: flex;
   box-shadow: 4px 4px 4px (0,0,0,0.25);
   border-radius: 3px;
 }
 
 .pokemon-image {
-  width: 70px;
   height: 70px;
   margin-right: 10px;
+  margin-top: 8px;
 }
 
 .pokemon-image-container {
@@ -97,6 +100,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   padding: 10px 10px 10px 0px;
+  margin-left: 30px;
   flex: 1;
 }
 
@@ -125,6 +129,13 @@ nav {
 .pokemon-type-text {
   margin-right: 10px;
   text-transform: capitalize;
+}
+
+/*Arquivo Pagination.js*/
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /*Arquivo App.js*/

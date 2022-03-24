@@ -1,15 +1,30 @@
 import React from "react";
+import './Pokemon.css';
 
 const Pokemon = (props) => {
     const {pokemon} = props;
     const onHeartClick = () => {
         console.log("pode favoritar");
     }
+    //var {pkmn_img} = `C:/Users/tiago/OneDrive/Área de Trabalho/Tiago/Programacoes Random/react/PokedexReact/reactjs/src/Images/animated/${pokemon.id}.gif`;
+    //pokemon.sprites.other["official-artwork"].front_default
     const heart = "❤️";
     return (
-        <div className="pokemon-card">
+        <div className={pokemon.types[0].type.name}>
             <div className="pokemon-image-container">
-                <img alt={pokemon.name} src={pokemon.sprites.front_default} className="pokemon-image"/>
+                {pokemon.id <650   ?
+                    <img 
+                        alt={pokemon.name} 
+                        src={require(`C:/Users/tiago/OneDrive/Área de Trabalho/Tiago/Programacoes Random/react/PokedexReact/reactjs/src/Images/animated/${pokemon.id}.gif`)} 
+                        className="pokemon-image"
+                    />
+                    :
+                    <img 
+                        alt={pokemon.name} 
+                        src={require(`C:/Users/tiago/OneDrive/Área de Trabalho/Tiago/Programacoes Random/react/PokedexReact/reactjs/src/Images/animated/${pokemon.id}.png`)} 
+                        className="pokemon-image"
+                    />
+                }
             </div>
             <div className="card-body">
                 <div className="card-top">

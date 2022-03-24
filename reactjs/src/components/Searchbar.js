@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { searchPokemon } from "../api";
+import './Pokemon.css';
 
 const Searchbar = () => {
     const [search, setSearch] = useState("ditto");
@@ -32,7 +33,8 @@ const Searchbar = () => {
                 <button onClick={onButtonClickHandler}>Buscar</button>
             </div>
             {pokemon ? (
-                <div className="pokemon-search-card">
+                <div className={pokemon.types[0].type.name}>
+                    <div className="pokemon-search-card">
                     <div className="card-body">
                         <div>Nome: {pokemon.name}</div>
                         <div>Peso: {pokemon.weight}</div>
@@ -43,6 +45,7 @@ const Searchbar = () => {
                             })}
                     </div>
                     <img src = {pokemon.sprites.front_default} alt = {pokemon.name}/>        
+                    </div>
                 </div>
             ): null}
         </div>
