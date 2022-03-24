@@ -2,222 +2,108 @@
     background-image: url('../Images/types-bg/grass.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 .fire{
     background-image: url('../Images/types-bg/fire.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .water{
     background-image: url('../Images/types-bg/water.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 .bug{
     background-image: url('../Images/types-bg/bug.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;  
-    height: 110px;
 }
 .normal{
     background-image: url('../Images/types-bg/normal.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .poison{
     background-image: url('../Images/types-bg/poison.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 .electric{
     background-image: url('../Images/types-bg/electric.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .ground{
     background-image: url('../Images/types-bg/ground.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .fairy{
     background-image: url('../Images/types-bg/fairy.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .psychic{
     background-image: url('../Images/types-bg/psychic.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .fighting{
     background-image: url('../Images/types-bg/fighting.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .rock{
     background-image: url('../Images/types-bg/rock.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .ice{
     background-image: url('../Images/types-bg/ice.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .ghost{
     background-image: url('../Images/types-bg/ghost.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .dragon{
     background-image: url('../Images/types-bg/dragon.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .dark{
     background-image: url('../Images/types-bg/dark.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 .flying{
     background-image: url('../Images/types-bg/flying.jpeg');
     background-repeat: no-repeat;
     background-size: cover;      
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
          
 .steel{
     background-image: url('../Images/types-bg/steel.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }
 
 #water{
     background-image: url('../Images/types-bg/water.jpeg');
     background-repeat: no-repeat;
     background-size: cover;  
-    display: flex;
-    box-shadow: 4px 4px 4px (0,0,0,0.25);
-    border-radius: 3px;
-    margin-left: 18px;
-    padding-left: 6px;
-    height: 110px;
 }

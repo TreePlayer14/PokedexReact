@@ -1,16 +1,19 @@
-import React from "react";
+import React, {useContext} from "react";
+import FavoriteContext from "../contexts/favoritesContext";
+import styled from "styled-components";
 import './Pokemon.css';
 
 const Pokemon = (props) => {
+    const {favoritePokemons, updateFavoritePokemons} = useContext(FavoriteContext);
     const {pokemon} = props;
     const onHeartClick = () => {
-        console.log("pode favoritar");
+        updateFavoritePokemons(pokemon.name);
     }
     //var {pkmn_img} = `C:/Users/tiago/OneDrive/Área de Trabalho/Tiago/Programacoes Random/react/PokedexReact/reactjs/src/Images/animated/${pokemon.id}.gif`;
     //pokemon.sprites.other["official-artwork"].front_default
-    const heart = "❤️";
+    const heart = favoritePokemons.includes(pokemon.name) ? "❤️" : "🖤";
     return (
-        <div className={pokemon.types[0].type.name}>
+        <div className={pokemon.types[0].type.name} id="card">
             <div className="pokemon-image-container">
                 {pokemon.id <650   ?
                     <img 
@@ -35,7 +38,7 @@ const Pokemon = (props) => {
                     <div className="pokemon-type">
                         {pokemon.types.map((type,index) => {
                             return (
-                                <div key={index} className="pokemon-type-text">{type.type.name}</div>
+                                <Text key={index} className={type.type.name}>{type.type.name}</Text>
                             );
                         })}
                     </div>
@@ -47,5 +50,25 @@ const Pokemon = (props) => {
         </div>
     );
 };
+
+const Text = styled.div
+`
+    margin-right: 10px;
+    font: bold;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+        rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 5px;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+`;
 
 export default Pokemon;

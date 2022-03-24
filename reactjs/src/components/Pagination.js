@@ -11,7 +11,7 @@ const Pagination = (props) => {
                     <AiFillCaretLeft/>
                 </div>
             </button>
-            <div>{page} de {totalPages}</div>
+            <div> {page} de {totalPages} </div>
             <button onClick={onRightClick}>
                 <div>
                     <AiFillCaretRight/>
